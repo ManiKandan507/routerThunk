@@ -1,0 +1,41 @@
+
+* Integrate redux-thunk concepts with the Router app which is you have done already for React + Router exercise.
+* Endpoints are explained below. you can use axios/fetch to make the async calls.
+
+
+signup: http://node.mitrahsoft.co.in/register
+method: POST
+body: {
+    first_name: '',
+    last_name: '',
+    email: '',
+    password: ''
+}
+
+login: http://node.mitrahsoft.co.in/login
+method: POST
+body: {
+    email: '',
+    password: ''
+}
+
+get all users - GET - http://node.mitrahsoft.co.in/users
+
+create a user - POST - http://node.mitrahsoft.co.in/user
+body: {
+    name: '',
+    gender: '',
+    job: '',
+    profile_img: 'url'
+}
+
+update a user - PUT - http://node.mitrahsoft.co.in/user/:id
+body: {
+    name: '',
+    gender: '',
+    job: '',
+    profile_img: 'url'
+}
+
+delete a user - DELETE - http://node.mitrahsoft.co.in/user/:id
+
